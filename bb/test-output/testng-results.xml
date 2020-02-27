@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="152" started-at="2020-01-17T02:01:50 IST" finished-at="2020-01-17T02:01:50 IST">
+    <groups>
+      <group name="esehi-group">
+        <method signature="Newpack.testone()[pri:0, instance:bbpack.Newpack@5ec0a365]" name="testone" class="bbpack.Newpack"/>
+      </group> <!-- esehi-group -->
+      <group name="regression-group">
+        <method signature="Newpack.testone()[pri:0, instance:bbpack.Newpack@5ec0a365]" name="testone" class="bbpack.Newpack"/>
+        <method signature="Newpack.testthree()[pri:0, instance:bbpack.Newpack@5ec0a365]" name="testthree" class="bbpack.Newpack"/>
+      </group> <!-- regression-group -->
+      <group name="sanity-group">
+        <method signature="Newpack.testone()[pri:0, instance:bbpack.Newpack@5ec0a365]" name="testone" class="bbpack.Newpack"/>
+        <method signature="Newpack.testtwo()[pri:0, instance:bbpack.Newpack@5ec0a365]" name="testtwo" class="bbpack.Newpack"/>
+      </group> <!-- sanity-group -->
+    </groups>
+    <test name="Default test" duration-ms="152" started-at="2020-01-17T02:01:50 IST" finished-at="2020-01-17T02:01:50 IST">
+      <class name="bbpack.Newpack">
+        <test-method status="PASS" signature="testone()[pri:0, instance:bbpack.Newpack@5ec0a365]" name="testone" duration-ms="25" started-at="2020-01-17T02:01:50 IST" finished-at="2020-01-17T02:01:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testone -->
+        <test-method status="PASS" signature="testthree()[pri:0, instance:bbpack.Newpack@5ec0a365]" name="testthree" duration-ms="2" started-at="2020-01-17T02:01:50 IST" finished-at="2020-01-17T02:01:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testthree -->
+        <test-method status="PASS" signature="testtwo()[pri:0, instance:bbpack.Newpack@5ec0a365]" name="testtwo" duration-ms="2" started-at="2020-01-17T02:01:50 IST" finished-at="2020-01-17T02:01:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtwo -->
+      </class> <!-- bbpack.Newpack -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
